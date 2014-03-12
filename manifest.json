@@ -6,7 +6,8 @@
    "content_scripts": [
     {
       "matches": ["http://music.cbc.ca/*"],
-      "js" : ["cbcmusic-kbsc.js"]
+      "js" : ["cbcmusic-kbsc.js"],
+      "all_frames" : true
     }
   ]
 }
