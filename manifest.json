@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "CBC Music Keyboard Shortcuts",
+  "version": "0.1",
+  "description": "Control the CBC Music player with the keyboard`.",
+   "content_scripts": [
+    {
+      "matches": ["http://music.cbc.ca/*"],
+      "js" : ["cbcmusic-kbsc.js"]
+    }
+  ]
+}
